@@ -24,8 +24,9 @@ by [Cheng Zhang*](https://czhang0528.github.io/), [Tai-Yu Pan*](https://scholar.
 
 ## Pre-trained models
 
+Our impelementation is based on [Detectron2](https://github.com/facebookresearch/detectron2).
 All models are trained on [LVIS](https://www.lvisdataset.org/) training set with [Repeated Factor 
-Sampling (RFS)](https://arxiv.org/abs/1908.03195). Our impelementation is based on [Detectron2](https://github.com/facebookresearch/detectron2).
+Sampling (RFS)](https://arxiv.org/abs/1908.03195). 
 
 ### LVIS v0.5 validation set
 * Object detection
