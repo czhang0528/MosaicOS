@@ -1,4 +1,5 @@
 # MosaicOS
+**Mosaic** of **O**bject-centric Images as **S**cene-centric Images (**MosaicOS**) for long-tailed object detection and instance segmentation.
 
 ![](image/mosaicos.png)
 
@@ -20,7 +21,7 @@ Preprint 2021.
 ## Pre-trained models
 
 All models are trained on [LVIS](https://www.lvisdataset.org/) training set with [Repeated Factor 
-Sampling (RFS)](https://arxiv.org/abs/1908.03195). Our impelementation is based on [Detectron2].(https://github.com/facebookresearch/detectron2) 
+Sampling (RFS)](https://arxiv.org/abs/1908.03195). Our impelementation is based on [Detectron2](https://github.com/facebookresearch/detectron2).
 
 ### LVIS v0.5 validation set
 #### Object detection
