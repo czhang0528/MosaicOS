@@ -33,15 +33,15 @@ Sampling (RFS)](https://arxiv.org/abs/1908.03195).
 
 | Backbone | Method | APb | APbr | APbc | APbf | Download |
 | :----: | :----: | :----:|:----: |:----: |:----: |:----: |
-|[R50-FPN]() | Faster R-CNN | 23.4 | 13.0 | 22.6 | 28.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES8mmUMhyJ9GkNeDIwNhvB0BV5PYjWIfhtNE06ttws_gog?e=0CHcAO) &#124; [metrics]() |
-|[R50-FPN]() | MosaicOS | 25.0 | 20.2 | 23.9 | 28.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ERJE9Kh-gBhLhqysyqZbcyQBP9RjPo_oe_gtm8jI5OP8Eg?e=9XP6kH) &#124; [metrics]() |
+|[R50-FPN]() | Faster R-CNN | 23.4 | 13.0 | 22.6 | 28.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES8mmUMhyJ9GkNeDIwNhvB0BV5PYjWIfhtNE06ttws_gog?e=0CHcAO) &#124; |
+|[R50-FPN]() | MosaicOS | 25.0 | 20.2 | 23.9 | 28.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ERJE9Kh-gBhLhqysyqZbcyQBP9RjPo_oe_gtm8jI5OP8Eg?e=9XP6kH) &#124; |
 
 * Instance segmentation
 
 |Backbone| Method | AP | APr | APc | APf | APb | Download |
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
-|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| 24.4 | 16.0 | 24.0 | 28.3 | 23.6 | [model](https://dl.fbaipublicfiles.com/detectron2/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x/144219072/model_final_571f7c.pkl) &#124; [metrics]() |
-|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 26.3 | 19.7 | 16.6 | 18.5 | 15.8 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES5orlT__VlLk1DUdH6K2dABmJF4jIo25b2AbommVTiHrw?e=GexjL5) &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| 24.4 | 16.0 | 24.0 | 28.3 | 23.6 | [model](https://dl.fbaipublicfiles.com/detectron2/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x/144219072/model_final_571f7c.pkl) &#124; |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 26.3 | 19.7 | 16.6 | 18.5 | 15.8 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES5orlT__VlLk1DUdH6K2dABmJF4jIo25b2AbommVTiHrw?e=GexjL5) &#124; |
 
 
 ### LVIS v1.0 validation set
@@ -50,19 +50,19 @@ Sampling (RFS)](https://arxiv.org/abs/1908.03195).
 
 | Backbone | Method | APb | APbr | APbc | APbf | Download |
 | :----: | :----: | :----:|:----: |:----: |:----: |:----: |
-|[R50-FPN]() | Faster R-CNN | 22.0 | 10.6 | 20.1 | 29.2 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EYQAaDzq5PxNrdN5mvNXIowB-WGFKKtN8LD5mTHn1mxFCg?e=MpozsL) &#124; [metrics]() |
-|[R50-FPN]() | MosaicOS | 23.9 | 15.5 | 22.4 | 29.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EVbkrKCwxhxJnZYqti2kv9MBl_Mw1FdkiUNlipWCABxOAg?e=DVyDrs) &#124; [metrics]() |
+|[R50-FPN]() | Faster R-CNN | 22.0 | 10.6 | 20.1 | 29.2 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EYQAaDzq5PxNrdN5mvNXIowB-WGFKKtN8LD5mTHn1mxFCg?e=MpozsL) &#124; |
+|[R50-FPN]() | MosaicOS | 23.9 | 15.5 | 22.4 | 29.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EVbkrKCwxhxJnZYqti2kv9MBl_Mw1FdkiUNlipWCABxOAg?e=DVyDrs) &#124; |
 
 * Instance segmentation
 
 |Backbone| Method | AP | APr | APc | APf | APb | Download |
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
-|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| 22.6 | 12.3 | 21.3 | 28.6 | 23.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EUC2q_cquVxOuTbT0Jhs_jsBI-KWqZBzH65xc7O8TDq0bA?e=7bZudB) &#124; [metrics]() |
-|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 24.5 | 18.2 | 23.0 | 28.8 | 25.1 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/Ebgvod--mcNCtlJd-Zx2fgIBK9DPY0ljV8KAzDGoY0fKCg?e=dePYhu) &#124; [metrics]() |
-|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) |Mask R-CNN| 24.8 | 15.2 | 23.7 | 30.3 | 25.5 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EcxslJyXWLRFosAWNPVhNnoBI8-A26VwcIlz9g9_LJLPrQ?e=eq9ph1) &#124; [metrics]() |
-|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) | MosaicOS | 26.7 | 20.5 | 25.8 | 30.5 | 27.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ESgvEq70ZcBMpGmxh8dNkzABXdNrubZ4vgLJcAeyNrcFag?e=xpSxYh) &#124; [metrics]() |
-|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) |Mask R-CNN| 26.7 | 17.6 | 25.6 | 31.9 | 27.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EbpyIygM7xxMmx3yGsuaGAEBRGnlf4uDim1LmtepiVC_8g?e=M06hb3) &#124; [metrics]() |
-|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) | MosaicOS | 28.3 | 21.8 | 27.2 | 32.4 | 28.9 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EdnZuTTz-BxGn5ZmaXD_5mYB5kfR_VEoQnUr7Sia0G8HqA?e=5povyB) &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| 22.6 | 12.3 | 21.3 | 28.6 | 23.3 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EUC2q_cquVxOuTbT0Jhs_jsBI-KWqZBzH65xc7O8TDq0bA?e=7bZudB) &#124; |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 24.5 | 18.2 | 23.0 | 28.8 | 25.1 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/Ebgvod--mcNCtlJd-Zx2fgIBK9DPY0ljV8KAzDGoY0fKCg?e=dePYhu) &#124; |
+|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) |Mask R-CNN| 24.8 | 15.2 | 23.7 | 30.3 | 25.5 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EcxslJyXWLRFosAWNPVhNnoBI8-A26VwcIlz9g9_LJLPrQ?e=eq9ph1) &#124; |
+|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) | MosaicOS | 26.7 | 20.5 | 25.8 | 30.5 | 27.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ESgvEq70ZcBMpGmxh8dNkzABXdNrubZ4vgLJcAeyNrcFag?e=xpSxYh) &#124; |
+|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) |Mask R-CNN| 26.7 | 17.6 | 25.6 | 31.9 | 27.4 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EbpyIygM7xxMmx3yGsuaGAEBRGnlf4uDim1LmtepiVC_8g?e=M06hb3) &#124; |
+|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) | MosaicOS | 28.3 | 21.8 | 27.2 | 32.4 | 28.9 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/EdnZuTTz-BxGn5ZmaXD_5mYB5kfR_VEoQnUr7Sia0G8HqA?e=5povyB) &#124; |
 
 ## Citation
 Please cite with the following bibtex if you find it useful.
