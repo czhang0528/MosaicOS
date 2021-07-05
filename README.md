@@ -35,10 +35,6 @@ Sampling (RFS)](https://arxiv.org/abs/1908.03195). Our impelementation is based 
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
 |[R50-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
 |[R50-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
-|[R101-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[R101-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
-|[X101-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[X101-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
 
 
 ### LVIS v1.0 validation set
