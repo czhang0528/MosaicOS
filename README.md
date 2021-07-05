@@ -13,10 +13,14 @@ We propose Mosaic of Object-centric images as Scene-centric images (MosaicOS), a
 are three-fold: (i) pseudo scene-centric image construction from object-centric images for mitigating domain differences, (ii) high-quality bounding box imputation using
 the object-centric images’ class labels, and (iii) a multistage training procedure. Check our paper for further details:
 
-Cheng Zhang*, Tai-Yu Pan*, Yandong Li, Hexiang Hu, Dong Xuan, Soravit Changpinyo, Boqing Gong, Wei-Lun Chao. 
 [MosaicOS: 
 A Simple and Effective Use of Object-Centric Images for Long-Tailed Object Detection](https://arxiv.org/abs/2102.08884).
 Preprint 2021.
+
+by [Cheng Zhang*](https://czhang0528.github.io/), [Tai-Yu Pan*](https://scholar.google.com/citations?user=c67q8toAAAAJ&hl=en), 
+[Yandong Li](https://cold-winter.github.io/), [Hexiang Hu](http://www.hexianghu.com/), [Dong Xuan](https://web.cse.ohio-state.edu/~xuan.3/), 
+[Soravit Changpinyo](http://www-scf.usc.edu/~schangpi/), [Boqing Gong](http://boqinggong.info/), [Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao). 
+
 
 ## Pre-trained models
 
@@ -65,3 +69,8 @@ Please cite with the following bibtex if you find it useful.
   year={2021}
 }
 ```
+
+## Questions
+Please feel free email us if you have any questions.
+
+Cheng Zhang (zhang.7804@osu.edu), Tai-Yu Pan (pan.667@osu.edu), Wei-Lun Harry Chao (chao.209@osu.edu)
