@@ -28,36 +28,40 @@ All models are trained on [LVIS](https://www.lvisdataset.org/) training set with
 Sampling (RFS)](https://arxiv.org/abs/1908.03195). Our impelementation is based on [Detectron2](https://github.com/facebookresearch/detectron2).
 
 ### LVIS v0.5 validation set
-#### Object detection
+* Object detection
+
 | Backbone | Method | APb | APbr | APbc | APbf | Download |
 | :----: | :----: | :----:|:----: |:----: |:----: |:----: |
 |[R50-FPN]() | Faster R-CNN | | | | | [model]() &#124; [metrics]() |
 |[R50-FPN]() | MosaicOS | | | | | [model]() &#124; [metrics]() |
 
-#### Instance segmentation
+* Instance segmentation
+
 |Backbone| Method | AP | APr | APc | APf | APb | Download |
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
-|[R50-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[R50-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | | | | | | [model]() &#124; [metrics]() |
 
 
 ### LVIS v1.0 validation set
 
-#### Object detection
+* Object detection
+
 | Backbone | Method | APb | APbr | APbc | APbf | Download |
 | :----: | :----: | :----:|:----: |:----: |:----: |:----: |
 |[R50-FPN]() | Faster R-CNN | | | | | [model]() &#124; [metrics]() |
 |[R50-FPN]() | MosaicOS | | | | | [model]() &#124; [metrics]() |
 
-#### Instance segmentation
+* Instance segmentation
+
 |Backbone| Method | AP | APr | APc | APf | APb | Download |
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
-|[R50-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[R50-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
-|[R101-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[R101-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
-|[X101-FPN]() |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
-|[X101-FPN]() | MosaicOS | | | | | | [model]() &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | | | | | | [model]() &#124; [metrics]() |
+|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
+|[R101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml) | MosaicOS | | | | | | [model]() &#124; [metrics]() |
+|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) |Mask R-CNN| | | | | | [model]() &#124; [metrics]() |
+|[X101-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv1-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml) | MosaicOS | | | | | | [model]() &#124; [metrics]() |
 
 ## Citation
 Please cite with the following bibtex if you find it useful.
