@@ -14,7 +14,7 @@ are three-fold: (i) pseudo scene-centric image construction from object-centric 
 the object-centric images’ class labels, and (iii) a multistage training procedure. Check our paper for further details:
 
 [MosaicOS: 
-A Simple and Effective Use of Object-Centric Images for Long-Tailed Object Detection](https://arxiv.org/abs/2102.08884). In IEEE International Conference on Computer Vision (ICCV), 2021.
+A Simple and Effective Use of Object-Centric Images for Long-Tailed Object Detection](https://arxiv.org/abs/2102.08884). In IEEE/CVF International Conference on Computer Vision (ICCV), 2021.
 
 by [Cheng Zhang*](https://czhang0528.github.io/), [Tai-Yu Pan*](https://scholar.google.com/citations?user=c67q8toAAAAJ&hl=en), 
 [Yandong Li](https://cold-winter.github.io/), [Hexiang Hu](http://www.hexianghu.com/), [Dong Xuan](https://web.cse.ohio-state.edu/~xuan.3/), 
