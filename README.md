@@ -40,7 +40,7 @@ Sampling (RFS)](https://arxiv.org/abs/1908.03195).
 |Backbone| Method | AP | APr | APc | APf | APb | Download |
 | :----:| :----: | :----: |:----: |:----: |:----: |:----: |:----: |
 |[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) |Mask R-CNN| 24.4 | 16.0 | 24.0 | 28.3 | 23.6 | [model](https://dl.fbaipublicfiles.com/detectron2/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x/144219072/model_final_571f7c.pkl)  |
-|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 26.3 | 19.7 | 16.6 | 18.5 | 15.8 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES5orlT__VlLk1DUdH6K2dABmJF4jIo25b2AbommVTiHrw?e=GexjL5)  |
+|[R50-FPN](https://github.com/facebookresearch/detectron2/blob/master/configs/LVISv0.5-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml) | MosaicOS | 26.3 | 19.7 | 26.6 | 28.5 | 25.8 | [model](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/pan_667_buckeyemail_osu_edu/ES5orlT__VlLk1DUdH6K2dABmJF4jIo25b2AbommVTiHrw?e=GexjL5)  |
 
 
 ### LVIS v1.0 validation set
