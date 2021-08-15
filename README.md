@@ -75,6 +75,6 @@ Please cite with the following bibtex if you find it useful.
 ```
 
 ## Questions
-Please feel free email us if you have any questions.
+Feel free to email us if you have any questions.
 
 Cheng Zhang (zhang.7804@osu.edu), Tai-Yu Pan (pan.667@osu.edu), Wei-Lun Harry Chao (chao.209@osu.edu)
