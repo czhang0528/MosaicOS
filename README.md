@@ -21,6 +21,14 @@ by [Cheng Zhang*](https://czhang0528.github.io/), [Tai-Yu Pan*](https://scholar.
 [Soravit Changpinyo](http://www-scf.usc.edu/~schangpi/), [Boqing Gong](http://boqinggong.info/), [Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao). 
 
 
+## Mosaics
+
+The script `mosaic.py` generates mosaic images and annotaions by given an annotation file in COCO format (for more information [here](https://cocodataset.org/#format-data)). The following command will generate 2x2 mosaic images and the annotation file for COCO training dataset in `OUTPUT_DIR/images/` and `OUTPUT_DIR/annotation.json` with 4 processors. `--shuffle` is to shuffle the order of images to synthesize and `--drop-last` is to drop the last couple of images if they are not enough for `nrow * ncol`. `--demo 10` plots 10 synthesized images with annotated boxes in `OUTPUT_DIR/demo/` for visualization.
+```
+ python mosaic.py --coco-file datasets/coco/annotations/instances_train2017.json --img-dir datasets/coco --output-dir output_mosaics --num-proc 4 --nrow 2 --ncol 2 --shuffle --drop-last --demo 10
+```
+
+
 ## Pre-trained models
 
 Our impelementation is based on [Detectron2](https://github.com/facebookresearch/detectron2).
