@@ -27,6 +27,7 @@ The script `mosaic.py` generates mosaic images and annotaions by given an annota
 ```
  python mosaic.py --coco-file datasets/coco/annotations/instances_train2017.json --img-dir datasets/coco --output-dir output_mosaics --num-proc 4 --nrow 2 --ncol 2 --shuffle --drop-last --demo 10
 ```
+_*Note: In our work, we sythesize mosaics from object-centric images with pseudo bounding box to find-tune the pre-trained detector._
 
 
 ## Pre-trained models
